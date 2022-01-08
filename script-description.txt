@@ -1,0 +1,16 @@
+Squirrels count
+libraries used: Pandas
+language usesd : Python
+
+- It is a small script that loads a csv dataset file of squirrels
+- Finds squirrels of three different colors: gray, cinnamon and black using a specific column
+- Grabs all the different squirrels, then finds the count of each type of squirrel color
+- creates a dictionary object consisting of Fur color and Counts
+- converts the dictionary object to a dataframe
+- converts the dataframe to an excel file
+
+additional functionality
+- the script select another column from the dataset which contains 'highlight fur color'
+- retrieves the data from the column
+- counts squirrels of each different colours
+- this part of code can be reused for another containing same type of data

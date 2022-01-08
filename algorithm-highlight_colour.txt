@@ -1,0 +1,6 @@
+- save all the details in a dictionary
+- iterate over a dictionary to get each highlight color
+- and once the highlight colour is obtained
+- compare it to the colour that  you find on the dictionary
+- and save all the data on a dictionary 
+- to convert it later as a csv files

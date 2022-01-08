@@ -1,0 +1,33 @@
+- id int not null
+- Cinnamon VARCHAR(20)
+- White
+- Gray
+- Cinnamon_White
+- Gray_white
+- Black_cinnamon_white
+- Black
+- Black_white
+- Black_cinnamon
+- Gray_black
+- Time
+- Date 
+
+
+
+
+sql = '''create table if not exists colors(
+        id int not null auto_increment,
+        Cinnamon varchar(20) not null,
+        White varchar(20) not null,
+        Gray varchar(20) not null,
+        Cinnamon_white varchar(20) not null,
+        Gray_white varchar(20) not null,
+        Black_cinnamon_white varchar(20) not null,
+        Black varchar(20) not null, 
+        Black_white varchar(20) not null,
+        Black_cinnamon varchar(20) not null,
+        Gray_black varchar(20) not null,
+        Time varchar(20) not null,
+        data varchar(20) not null,
+        primary key (id)
+        ) '''
